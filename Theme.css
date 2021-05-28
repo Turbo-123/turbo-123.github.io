@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+ 	 --white:
+	--white-gradient:
+}
+
+.parties-view
+{
+    background: url(https://turbo-123.github.io/turbo-123/Images/Fishing.jpg) !important;
+}
+.parties-view .parties-background {
+    opacity:0;
+}
+.collections-application{
+    background: url(https://turbo-123.github.io/turbo-123/Images/Fishing.jpg) !important;
+}
+
+div[data-screen-name='rcp-fe-lol-navigation-screen'] {
+    height: 79px;
+    width: 1278px;
+    border-top: 0px solid #785a28!important;
+    box-sizing: border-box;
+}
+
+#rcp-fe-viewport-root {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #000;
+}
+
+#rcp-fe-viewport-root #rcp-fe-lol-navigation-app {
+    pointer-events: none;
+    background: #00000000!important;
+}
+
+.lol-social-sidebar {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #00000008;
+    font-size: 12px;
+    cursor: default;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    background-color:transparent !important;
+    background:url('https://turbo-123.github.io/turbo-123/Images/Fishing.jpg')!important;
+    box-shadow: inset 0px 0px 150px  rgba(255, 255, 255, 0.2) ;        
+    border-radius:20px 20px 0px 0px;
+}
+.social-scroll::-webkit-scrollbar {
+    width: 0px!important;    
+}
+
+.section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #f1f1f1!important;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    transition: text-shadow 0.3s ease-in-out, background 1.5s;
+    width: 100%;
+    height: 100%;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.section.active .section-glow {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    margin: 0;
+    background: linear-gradient(to left, transparent, #9e6dff, transparent)!important;
+}
+
+.section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
+    color: #846bff;
+    text-shadow: 0px 0px 21px #8500ff !important;
+    /* opacity: 1; */
+}
+
+ .section.active {
+    background-image: linear-gradient(0deg, rgba(157, 84, 255, 0.3) 0%, rgba(34, 0, 66, 0.19) 55%)!important;
+}
+
+.section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
+    color: #ffffff!important;
+    text-shadow: 0px 1px 15px white!important;
+    font-family: 'Monolisa Regular', sans-serif!important;
+}
+
+.section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #facfffc2!important;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    transition: text-shadow 0.3s ease-in-out, background 1.5s;
+    width: 100%;
+    height: 100%;
+    min-height: 20px;
+    cursor: pointer;
+    font-family: 'Monolisa Regular', sans-serif!important;
+}
+
+::content .lol-uikit-video-content {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    filter: brightness(0) invert(0)!important;
+}
+
+.lol-uikit-full-page-backdrop {
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(255, 255, 255, 0.3) 120%)!important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.loot-backdrop {
+    position: absolute;
+    width: 1055px;
+    height: 718px;
+    overflow: hidden;
+    background: url(https://pionpichou.github.io/pionpichou/themes/rengar.jpg) !important;
+    
+}
+
+.game-type-card .parties-game-type-upper-half {
+    position: relative;
+    cursor: pointer;
+    width: 185px;
+    height: 230px;
+    filter: grayscale(100%)!important;
+}
+
+.parties-header-button-container .back-button-container.back-button-shown {
+    display: block;
+    filter: saturate(0);
+}
+
+
+#rcp-fe-viewport-root > .rcp-fe-viewport-full-screen {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    -webkit-user-select: none;
+    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.2);
+}
+
+.basic-button .play-button-frame {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: none !important;
+    transition: 400ms background ease;
+}
+
+.update-available-proxy {
+    position: absolute;
+    top: 11px;
+    left: 509px;
+    width: 141px;
+    height: 76px;
+    padding: 7px 0;
+    pointer-events: none;
+}
+
+.left-nav-menu, .right-nav-menu {
+    display: flex;
+    align-items: center;
+    height: 79px;
+    /* right: 14px; */
+    margin-left: -136px;
+}
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 439px;
+    width: 162px;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    pointer-events: none;
+}
+
+.basic-button .play-button-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    transition: 400ms 200ms background ease;
+    background-image: none!important;
+}
+
+.basic-button .play-button-video, .basic-button .play-button-hover-magic {
+    position: absolute;
+    top: -7px!important;
+    left: 20px!important;
+    opacity: 0;
+}
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 459px!important;
+    width: 162px;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    pointer-events: all!important;
+}
+
+.basic-button .league-logo {
+    position: absolute;
+    top: -6px!important;
+    left: -13px!important
+    cursor: default;
+    opacity: 0;
+}
+
+
+:host-context(lol-uikit-navigation-bar[type=nav-bar]) .section.active {
+    background-image: linear-gradient(0deg, rgba(205,190,145,0.15) 0%, rgba(31,37,38,0) 55%);
+    color: #fdfdfd !important;
+}
+
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 419px!important;
+    width: 162px;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    pointer-events: none;
+}
+
+.basic-button.play .play-button-container .play-button-content .play-button-text {
+    width: calc(100% - -4px);
+    color: #ffffff !important;    
+}
+
+.currency-be-icon-container {
+  
+    filter: brightness(0) invert(1)!important;
+}
+
+.currency-rp {
+    filter: brightness(0) invert(1)!important;
+}
+
+
+.basic-button:disabled .play-button-container .play-button-content .play-button-text, .basic-button.disabled .play-button-container .play-button-content .play-button-text {
+    color: #ead4f14f !important;
+    text-shadow: 0px 0px 10px black !important;
+}
+
+.basic-button .play-button-frame {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    top: 1px!important;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1px!important;
+    background-image: none!important;
+    transition: 400ms background ease!important;
+}
+
+.basic-button .play-button-frame:hover {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    top: 1px!important;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1px!important;
+    background-image: none!important;
+    transition: 400ms background ease!important;
+}
+
+.basic-button {
+    position: absolute;
+    top: 15px!important;
+    left: 460px!important;
+    width: 137px!important;
+    height: 48px!important;
+    padding: 7px 0;
+    padding-left: 10px!important;
+    box-sizing: border-box;    
+    cursor: default;
+    
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow 0 5px 45px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius:5px;    
+    transition: 0.5s;
+    }
+
+.basic-button:hover {
+    position: absolute;
+    top: 10px;
+    left: 460px!important;
+    width: 137px!important;
+    height: 58px;
+    padding: 7px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    transition:  300ms ease-out;
+    cursor: default;   
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.main-navigation-menu-item {
+    min-width: 40px;
+    height: 100%;
+    pointer-events: auto;
+    position: relative;
+    --disabled-color: rgba(240,230,210,0.5);
+    filter: brightness(0) invert(1)!important;
+}
+
+
+.basic-button.play .play-button-container .play-button-content .play-button-text {
+    width: calc(100% - 0px)!important;
+}
+
+.basic-button .play-button-container .play-button-content {
+    position: relative;
+    width: calc(100% - 38px)!important;
+    height: 100%;
+    left: 16px!important;
+    padding: 6px;
+    box-sizing: border-box;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.member-name-wrapper .member-name {
+    color: #ffffff!important;
+    font-size: 14px;
+    font-weight: bold!important;
+    line-height: 20px;
+    text-shadow: 1px  1px 1px black !important;   
+    letter-spacing: 0.025em;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.member-status, .status-message, .status-message-product-name, .status-message-quoted{
+    color: hsla(143, 90%, 44%, 1) !important;
+    text-shadow: 1px  1px 1px #000000 !important; 
+}
+.dnd {
+    color:hsla(187, 92%, 57%, 1) !important;
+}
+
+
+.group-header {
+    background: rgba(1,10,19,0.7)!important;          
+    transition: 0.5s;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 4px;
+    color: rgba(255,255,255,1)!important;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.075em;
+        
+}
+.lol-social-sidebar .alpha-version-panel {
+    filter: grayscale(100%) ;
+}
+
+.friend-requests {
+    height: 44px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(1,10,19,0.7)!important;
+    box-shadow 0 5px 45px rgba(0,0,0,0.5);
+}
+
+.friend-requests-header {
+    color: #ffc13d !important; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.lol-social-actions-bar .buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: -2px;
+    transition: width 200ms cubic-bezier(0, 0, 0, 1);
+    filter: brightness(0) invert(1)!important;    
+}
+
+.player-party-controls.main-player-controls .parties-player-labels-wrapper .parties-player-name-container .parties-player-name {
+    color: #fabe0a;
+    max-width: 170px;
+    filter: brightness(0) invert(1)!important;
+}
+
+.player-party-controls .parties-player-labels-wrapper .parties-player-name-container .parties-player-leader-icon {
+    position: absolute!important;    
+    padding-bottom: 60px!important;    
+}
+
+.parties-game-navs-list .parties-game-navs-item {    
+    filter: brightness(0) invert(1)!important;
+}
+
+.game-type-card.selected .parties-game-type-card-category-btn {
+    filter: brightness(0) invert(1)!important;
+}
+/* LOBBY */
+#ember2262, .chat-room-input, .toggle-container, .parties-game-type-card-category-radio-option {
+    filter: grayscale(100%) ;
+}
+
+.arrow-footer {
+    filter: grayscale(100%) brightness(1.2) ;
+}
+
+
+
+/* HOME */
+.rcp-fe-lol-home-sub-nav{
+    filter: brightness(0) invert(1)!important;
+}
+
+/* Profile */
+.style-profile-sub-nav {
+    filter: brightness(0) invert(1)!important;
+}
+.style-profile-skin-picker-button {
+    filter: grayscale(100%) brightness(1.2);
+}
+
+
+
+
+
+
+
+
+
+.loot-backdrop .lol-uikit-video-content{
+    background: url(https://turbo-123.github.io/turbo-123/Images/Fishing.jpg) !important;    
+    display: block;   
+    box-sizing: border-box;
+    width: 180px; 
+    height: 236px; 
+    padding-left: 180px; 
+}
+
+
+lol-social-roster-member {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 25px!important;
+    padding-bottom: 5px!important;
+}
+
+lol-social-roster-member .layout{    
+    padding: 10px!important;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px 0px 0px 10px!important;
+}
+
+lol-social-roster-member .layout:hover{    
+    background: rgba(0,0,0,0.3)!important;
+}
+
+lol-social-roster-member .member-icon {
+    height: 32px;
+    width: 32px;
+    margin: 0 8px 0 -28px!important;
+    flex-shrink: 0;
+}
+
+.icon-ring{
+    background-image:none!important;    
+}
+lol-social-roster-member .party-join-button {
+    filter: brightness(0.7) invert(1);    
+}
+
+:host .parties-status-card.open {
+    opacity:0.7;
+}
+
+
+
+
+.hover-card-root-container {
+    opacity:0.95;
+}
+
+.parties-invite-info-panel{
+    filter: grayscale(100%) brightness(1.2);
+}
+
+
+.champion-image-container {
+    opacity:0.9!important;
+}
+
+.champion-name{
+    color:white!important;
+    font-size:17px!important;
+    text-shadow:2px 2px black!important;
+        
+}
+
+.patching-progress-bar{    
+    padding-left:405px!important;
+}
+
+.ticker-button {
+    position:absolute;
+    margin-left:200px!important;
+    background-repeat:no-repeat;
+}
+rcp-fe-lol-navigation {
+    
+}
