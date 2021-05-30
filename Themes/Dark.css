@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-     --blue:
-    --blue-gradient:
 }
 
 .parties-view
@@ -13,13 +11,13 @@
     opacity:0;
 }
 .collections-application{
-    background: url(https://turbo-123.github.io/Images/Fishing.jpg) !important;
+    background: url(https://turbo-123.github.io/Images/Grey.png) !important;
 }
 
 div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     height: 79px;
     width: 1278px;
-    border-top: 0px solid #785a28!important;
+    border-top: 0px solid #00e7ff !important;
     box-sizing: border-box;
 }
 
@@ -36,7 +34,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 #rcp-fe-viewport-root #rcp-fe-lol-navigation-app {
     pointer-events: none;
-    background: #00000000!important;
+    background: #00000000 !important;
 }
 
 .lol-social-sidebar {
@@ -46,12 +44,12 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     display: flex;
     flex-direction: column;
     color: #00000008;
-    font-size: 12px;
+    font-size: 8px;
     cursor: default;
     -webkit-user-drag: none;
     -webkit-user-select: none;
     background-color:transparent !important;
-    background:url('https://turbo-123.github.io/Images/Fishing.jpg')!important;
+    background:url('https://turbo-123.github.io/Images/Grey.png')!important;
     box-shadow: inset 0px 0px 150px  rgba(255, 255, 255, 0.2) ;        
     border-radius:20px 20px 0px 0px;
 }
@@ -78,12 +76,12 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 .section.active .section-glow {
     height: 1px;
-    width: 100%;
+    width: 0%;
     position: absolute;
     left: 0;
-    top: 20px;
+    top: 10px;
     margin: 0;
-    background: linear-gradient(to left, transparent, #9e6dff, transparent)!important;
+    background: linear-gradient(to left, transparent, #9e6dff, #0596aa)!important;
 }
 
 .section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
@@ -93,11 +91,11 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
  .section.active {
-    background-image: linear-gradient(0deg, rgba(157, 84, 255, 0.3) 0%, rgba(34, 0, 66, 0.19) 55%)!important;
+    background-image: linear-gradient(0deg, #0596aa 0%, #0556aa 55%)!important;
 }
 
 .section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
-    color: #ffffff!important;
+    color: #004c82 !important;
     text-shadow: 0px 1px 15px white!important;
     font-family: 'Monolisa',!important;
 }
@@ -107,7 +105,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #facfffc2!important;
+    color: #6acfffc2 !important;
     border: none;
     margin: 0;
     text-decoration: none;
@@ -141,7 +139,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 1055px;
     height: 718px;
     overflow: hidden;
-    background: url(https://turbo-123.github.io/Images/Fishing.jpg) !important;
+    background: url(https://turbo-123.github.io/Images/Grey.png) !important;
     
 }
 
@@ -150,7 +148,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     cursor: pointer;
     width: 185px;
     height: 230px;
-    filter: grayscale(100%)!important;
+    filter: grayscale(10%)!important;
 }
 
 .parties-header-button-container .back-button-container.back-button-shown {
@@ -257,7 +255,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 
 :host-context(lol-uikit-navigation-bar[type=nav-bar]) .section.active {
-    background-image: linear-gradient(0deg, rgba(205,190,145,0.15) 0%, rgba(31,37,38,0) 55%);
+    background-image: linear-gradient(0deg, rgba(75, 159, 220, 0.15) 0%, rgba(31,37,38,0) 55%);
     color: #fdfdfd !important;
 }
 
@@ -277,7 +275,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 .basic-button.play .play-button-container .play-button-content .play-button-text {
     width: calc(100% - -4px);
-    color: #ffffff !important;    
+    color: #cdfafa !important;    
 }
 
 .currency-be-icon-container {
@@ -292,13 +290,13 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 .basic-button:disabled .play-button-container .play-button-content .play-button-text, .basic-button.disabled .play-button-container .play-button-content .play-button-text {
     color: #ead4f14f !important;
-    text-shadow: 0px 0px 10px black !important;
+    text-shadow: 0px 0px 10px #00dcff00 !important;
 }
 
 .basic-button .play-button-frame {
     position: absolute;
-    width: 100%!important;
-    height: 100%!important;
+    width: 100% !important;
+    height: 100% !important;
     top: 1px!important;
     left: 0;
     background-size: contain;
@@ -332,9 +330,9 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     box-sizing: border-box;    
     cursor: default;
     
-    background: rgba(255, 255, 255, 0.10);
-    box-shadow 0 5px 45px rgba(0,0,0,0.5);
-    border: 1px solid rgba(255,255,255,0.7);
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow 0 5px 45px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2e2e2e;
     border-radius:5px;    
     transition: 0.5s;
     }
@@ -350,7 +348,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     box-sizing: border-box;
     transition:  300ms ease-out;
     cursor: default;   
-    background: rgba(255, 255, 255, 0.20);
+    background: rgb(29, 30, 30);
 }
 
 .main-navigation-menu-item {
@@ -358,7 +356,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     height: 100%;
     pointer-events: auto;
     position: relative;
-    --disabled-color: rgba(240,230,210,0.5);
+    --disabled-color: rgb(16, 211, 193);
     filter: brightness(0) invert(1)!important;
 }
 
@@ -383,17 +381,17 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     font-size: 14px;
     font-weight: bold!important;
     line-height: 20px;
-    text-shadow: 1px  1px 1px black !important;   
+    text-shadow: 1px  1px 1px #00000000 !important;   
     letter-spacing: 0.025em;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .member-status, .status-message, .status-message-product-name, .status-message-quoted{
-    color: hsla(143, 90%, 44%, 1) !important;
-    text-shadow: 1px  1px 1px #000000 !important; 
+    color: #96b4bd !important;
+    text-shadow: 1px  1px 1px #00000000 !important; 
 }
 .dnd {
-    color:hsla(187, 92%, 57%, 1) !important;
+    color:#2fc1f9 !important;
 }
 
 
@@ -412,7 +410,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
         
 }
 .lol-social-sidebar .alpha-version-panel {
-    filter: grayscale(100%) ;
+    filter: grayscale(10%) ;
 }
 
 .friend-requests {
@@ -466,11 +464,11 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 /* LOBBY */
 #ember2262, .chat-room-input, .toggle-container, .parties-game-type-card-category-radio-option {
-    filter: grayscale(100%) ;
+    filter: grayscale(10%) ;
 }
 
 .arrow-footer {
-    filter: grayscale(100%) brightness(1.2) ;
+    filter: grayscale(10%) brightness(1.2) ;
 }
 
 
@@ -485,7 +483,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     filter: brightness(0) invert(1)!important;
 }
 .style-profile-skin-picker-button {
-    filter: grayscale(100%) brightness(1.2);
+    filter: grayscale(10%) brightness(1.2);
 }
 
 
@@ -551,7 +549,7 @@ lol-social-roster-member .party-join-button {
 }
 
 .parties-invite-info-panel{
-    filter: grayscale(100%) brightness(1.2);
+    filter: grayscale(10%) brightness(1.2);
 }
 
 
@@ -561,7 +559,7 @@ lol-social-roster-member .party-join-button {
 
 .champion-name{
     color:white!important;
-    font-size:17px!important;
+    font-size:12px!important;
     text-shadow:2px 2px black!important;
         
 }
